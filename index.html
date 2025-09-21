@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Censo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-clipboard-list"></i> Sistema de Censo</h1>
+            <p>Verifica si ya fuiste censado</p>
+        </header>
+
+        <main class="main-content">
+            <div class="search-container">
+                <div class="search-type-selector">
+                    <label class="radio-container">
+                        <input type="radio" name="searchType" value="cedula" checked>
+                        <span class="radio-custom"></span>
+                        <span class="radio-label">Buscar por Número de Documento</span>
+                    </label>
+                    <label class="radio-container">
+                        <input type="radio" name="searchType" value="codigo">
+                        <span class="radio-custom"></span>
+                        <span class="radio-label">Buscar por Número de Registro</span>
+                    </label>
+                </div>
+
+                <div class="search-form">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" placeholder="Ingresa tu número de documento" maxlength="20">
+                        <button id="searchBtn" class="search-btn">
+                            <i class="fas fa-search"></i>
+                            Buscar
+                        </button>
+                    </div>
+                </div>
+
+                <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Buscando...</span>
+                </div>
+
+                <div id="resultMessage" class="result-message" style="display: none;"></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Sistema de Censo. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <!-- Configuración antes del script principal -->
+    <script src="config.js"></script>
+    <script src="script-frontend.js"></script>
+</body>
+</html>
