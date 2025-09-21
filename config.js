@@ -5,8 +5,8 @@ window.ENV_CONFIG = {
     // ===========================================
     
     // Configuración de proxies (Google Apps Script)
-    PROXY_URL: 'https://script.google.com/macros/s/AKfycbyXJrUQ5RUh34OERK7KZFNLOlQcQjiJvv2gkmcc7ECJeJbM2cUDOVOnry8uwfClcIeY/exec',
-    PROXY_URLS: 'https://script.google.com/macros/s/AKfycbyXJrUQ5RUh34OERK7KZFNLOlQcQjiJvv2gkmcc7ECJeJbM2cUDOVOnry8uwfClcIeY/exec,https://script.google.com/macros/s/AKfycbzCmC1detkqVts4YHv9oI4Wklty507vuHvZ33rMa8B2Lkt79lKkQ813rtpU-EocYN6X/exec,https://script.google.com/macros/s/AKfycbxiVpDQno7ed92-IMCxVSDiSuM0x1l8QsrW5gC6q2Yi0jU5X9TOdeC6Iim8R1vzvPIe/exec',
+    PROXY_URL: 'https://script.google.com/macros/s/AKfycbzUlxR9WFpsxWleMGfRdVNbWgnLjwvalcW3abUzP8L5aDPfWUf1hTEG-FUZFR88drlZEg/exec',
+    PROXY_URLS: 'https://script.google.com/macros/s/AKfycbzUlxR9WFpsxWleMGfRdVNbWgnLjwvalcW3abUzP8L5aDPfWUf1hTEG-FUZFR88drlZEg/exec,https://script.google.com/macros/s/AKfycbx6GjhX5FyKtHnCbwGZyarjrJm76Yq-LIh5bLp5JrjmUIN-9-a2BmGyaeIR1ig-e4B2Ig/exec,https://script.google.com/macros/s/AKfycbwIRK25Jv0L0EFRc-bb5NoRoUU5KaDGJiZ_qhRu-0EmK-QCLlCpd_ptailDVirAc01Bcg/exec,https://script.google.com/macros/s/AKfycby71-4AOWKR3RPMncLd7YJj24cfhm6u-J2r_EBh6PF--dOhGrB9cTxsEhgVORqK_ynvEg/exec,https://script.google.com/macros/s/AKfycbyZ3hPcI6L_aYuMsU53tB8Pm0ka6EwW6AZQJ_-qXzuahGiRVIqRd0oNP-SFYq9Zl-19uA/exec',
     
     // ===========================================
     // CONFIGURACIÓN DE COLUMNAS
@@ -61,4 +61,5 @@ window.ENV_CONFIG = {
     TEXT_PRIMARY: '#1f2937',
     TEXT_SECONDARY: '#6b7280'
 };
+
 
