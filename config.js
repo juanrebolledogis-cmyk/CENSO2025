@@ -34,8 +34,8 @@ window.ENV_CONFIG = {
     // ===========================================
     
     // URLs de redirección cuando no se encuentra la persona
-    CEDULA_NOT_FOUND_URL: 'https://www.youtube.com/watch?v=mABmOBBFEAo',
-    CODIGO_NOT_FOUND_URL: 'https://x.com',
+    CEDULA_NOT_FOUND_URL: 'https://www.youtube.com/watch?v=uEZY7mCfAME&list=PL3jRzVbehrgq-VI620DwdVzxBBO5h6hgz&index=2',
+    CODIGO_NOT_FOUND_URL: 'https://www.youtube.com/watch?v=uEZY7mCfAME&list=PL3jRzVbehrgq-VI620DwdVzxBBO5h6hgz&index=2',
     
     // ===========================================
     // CONFIGURACIÓN DE VALIDACIÓN
@@ -61,3 +61,4 @@ window.ENV_CONFIG = {
     TEXT_PRIMARY: '#1f2937',
     TEXT_SECONDARY: '#6b7280'
 };
+
